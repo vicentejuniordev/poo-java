@@ -3,15 +3,17 @@ import java.util.Scanner;
 public class Question6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int number1 = scanner.nextInt();
-        int number2 = scanner.nextInt();
+        int age = scanner.nextInt();
 
-        if(number1 > number2){
-            System.out.println("O numero maior é: "+ number1);
+        if(age <= 12){
+            System.out.println("Criança");
+        }else if(age > 12 && age <= 17){
+            System.out.println("Adolescente");
+        }else if(age > 17 && age <= 59){
+            System.out.println("Adulto");
         }else{
-            System.out.println("O numero maior é: "+ number2);
+            System.out.println("Idoso");
         }
         scanner.close();
     }
-    
 }
