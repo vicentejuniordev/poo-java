@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Question12 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+        System.out.println(number%2==0?"Número Par":"Número Ímpar");
+        scanner.close();
+    }
+}
