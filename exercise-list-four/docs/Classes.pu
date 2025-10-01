@@ -1,0 +1,19 @@
+@startuml List-Four
+
+class People{
+    name: String
+    age: int
+
+    void toPresent()
+}
+
+class Car{
+    mark: String
+    model: String
+    year: int
+
+    void displayInformation()
+}
+
+
+@enduml
