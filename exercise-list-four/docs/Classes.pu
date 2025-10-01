@@ -23,5 +23,12 @@ class Product{
     void totalCalcValue()
 }
 
+class Book {
+    title: String
+    author: String
+    numberOfPages: int
+
+    void summary()
+}
 
 @enduml

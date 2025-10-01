@@ -20,7 +20,11 @@ public class App {
         product1.price = 20;
         product1.toalCalcValue();
 
-        
-
+        //Question7
+        Book b1 = new Book();
+        b1.title = "The Prince";
+        b1.author = "Niccolo Machiavelli";
+        b1.numberOfPages = 232;
+        b1.summary();
     }
 }
