@@ -12,6 +12,15 @@ public class App {
         car1.model ="Fastback";
         car1.year = 2025;
         car1.displayInformation();
+
+        //Questions 5 and 6
+        Product product1 = new Product();
+        product1.name = "Sword";
+        product1.amount = 10;
+        product1.price = 20;
+        product1.toalCalcValue();
+
         
+
     }
 }

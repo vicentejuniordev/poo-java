@@ -15,5 +15,13 @@ class Car{
     void displayInformation()
 }
 
+class Product{
+    name: String
+    price: float
+    amount: int
+
+    void totalCalcValue()
+}
+
 
 @enduml
