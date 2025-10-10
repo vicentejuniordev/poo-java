@@ -31,4 +31,13 @@ class Book {
     void summary()
 }
 
+class Student{
+    name: String
+    score1: float
+    score2: float
+
+    void media()
+    void aprovado()
+}
+
 @enduml

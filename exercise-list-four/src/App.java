@@ -26,5 +26,20 @@ public class App {
         b1.author = "Niccolo Machiavelli";
         b1.numberOfPages = 232;
         b1.summary();
+
+        //Question 8 and 9
+        Student s1 = new Student();
+        s1.name="Jaime";
+        s1.score1 = 10;
+        s1.score2 = 10;
+        s1.media();
+        s1.aprovado();
+
+        Student s2 = new Student();
+        s2.name = "Joãozinho";
+        s2.score1 = 6;
+        s2.score2 = 6;
+        s2.media();
+        s2.aprovado();
     }
 }
